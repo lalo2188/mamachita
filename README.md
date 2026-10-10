@@ -71,7 +71,7 @@ Cada búsqueda por zona son ~6–18 consultas; revisar las ~40 zonas una vez son
 
 Menú **🌶️ Mamachita → Actualizar pestaña COLONIAS** arma (o rehace) la pestaña con:
 tiendas por colonia y por estado, % visitado, totales por estado y por tipo, y tres gráficas.
-Todo son fórmulas: se actualiza sola cuando cambia la lista. Solo vuelve a correrlo si cambias columnas.
+Los números los calcula el script (sin fórmulas): se refrescan cada hora y con cada entrega o cambio de estado desde el mapa.
 
 ## 3. Publicación (mamachita.quisitofood.com)
 
