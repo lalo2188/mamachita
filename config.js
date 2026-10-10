@@ -7,7 +7,7 @@ window.MAMACHITA_CONFIG = {
   HOJA_TIENDAS: 'Prospectos',
   HOJA_ENTREGAS: 'Entregas',
 
-  // URL del Web App de Apps Script (ver apps-script/Code.gs y LEEME.md).
+  // URL del Web App de Apps Script (ver apps-script/Code.gs y README.md).
   // Mientras esté vacío, el mapa funciona en modo lectura y las entregas
   // se capturan directo en la hoja.
   SCRIPT_URL: 'https://script.google.com/macros/s/AKfycbxi4b_S0pHL6lIiiHsDXINZj8JNcZqDBh8GRTEiZVGFEgHXGRrb3Ykuy4wP4MIMSqfV/exec',
