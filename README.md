@@ -67,6 +67,12 @@ Con eso:
 
 Cada búsqueda por zona son ~6–18 consultas; revisar las ~40 zonas una vez son unas 500 consultas.
 
+## 2c. Pestaña COLONIAS (resumen y gráficas)
+
+Menú **🌶️ Mamachita → Actualizar pestaña COLONIAS** arma (o rehace) la pestaña con:
+tiendas por colonia y por estado, % visitado, totales por estado y por tipo, y tres gráficas.
+Todo son fórmulas: se actualiza sola cuando cambia la lista. Solo vuelve a correrlo si cambias columnas.
+
 ## 3. Publicación (mamachita.quisitofood.com)
 
 Este repo se publica con GitHub Pages; el archivo `CNAME` ya apunta al subdominio.
