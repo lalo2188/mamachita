@@ -48,6 +48,25 @@ Desde ahí, cuando escribas una tienda nueva en la hoja, sus coordenadas se llen
 
 Para agregar otro sabor: agrega la columna en `Entregas` y una línea en `SABORES` de `config.js`.
 
+## 2b. Buscar tiendas de Google Maps (opcional)
+
+Google Maps tiene muchas más tienditas que OpenStreetMap. Para traerlas hace falta una clave de **Google Places API**:
+
+1. Entra a <https://console.cloud.google.com/> con tu cuenta, crea un proyecto (p. ej. "Mamachita") y **activa la facturación**
+   (pide tarjeta, pero el uso de este mapa queda dentro del nivel gratuito mensual de Google).
+2. **APIs y servicios → Biblioteca → "Places API (New)" → Habilitar.**
+3. **APIs y servicios → Credenciales → Crear credenciales → Clave de API.** Edítala y en "Restricciones de API" elige solo *Places API (New)*.
+4. En Apps Script: **⚙️ Configuración del proyecto → Propiedades de la secuencia de comandos → Agregar**
+   - Propiedad: `GOOGLE_PLACES_KEY` · Valor: tu clave.
+5. Pega el `Code.gs` nuevo, guarda y **actualiza la implementación** (Gestionar implementaciones → ✏️ → Nueva versión).
+
+Con eso:
+- En la hoja: menú **🌶️ Mamachita → Buscar tiendas en Google (por zona)** recorre cada zona de tu lista y agrega las tiendas nuevas
+  (sin OXXO/7-Eleven/súpers grandes ni repetidas). Si faltan zonas al terminar, vuelve a correrlo y sigue donde se quedó.
+- En el mapa: el botón **🔍** busca en Google la zona que estés viendo (si no hay clave, usa OpenStreetMap).
+
+Cada búsqueda por zona son ~6–18 consultas; revisar las ~40 zonas una vez son unas 500 consultas.
+
 ## 3. Publicación (mamachita.quisitofood.com)
 
 Este repo se publica con GitHub Pages; el archivo `CNAME` ya apunta al subdominio.
