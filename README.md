@@ -62,6 +62,7 @@ Google Maps tiene muchas más tienditas que OpenStreetMap. Para traerlas hace fa
 
 Con eso:
 - En la hoja: menú **🌶️ Mamachita → Buscar tiendas en Google (por zona)** recorre cada zona de tu lista y agrega las tiendas nuevas
+- Para un pueblo o colonia que todavía no está en tu lista (p. ej. Tala): menú **🌶️ Mamachita → Buscar tiendas en un pueblo o colonia nueva…**, escribe el lugar y agrega las tiendas en 3 km a la redonda.
   (sin OXXO/7-Eleven/súpers grandes ni repetidas). Si faltan zonas al terminar, vuelve a correrlo y sigue donde se quedó.
 - En el mapa: el botón **🔍** busca en Google la zona que estés viendo (si no hay clave, usa OpenStreetMap).
 
